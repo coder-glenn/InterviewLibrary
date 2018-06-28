@@ -229,7 +229,7 @@
                 <a href="../projectExperience/questions.html">
             
                     
-                    项目经验 春题目
+                    项目经验 纯题目
             
                 </a>
             
@@ -243,6 +243,32 @@
             
                     
                     项目经验
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="../openQuestion/questions.html">
+            
+                <a href="../openQuestion/questions.html">
+            
+                    
+                    开放题目 纯题目
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="../openQuestion/questionsAndAnswers.html">
+            
+                <a href="../openQuestion/questionsAndAnswers.html">
+            
+                    
+                    开放题目
             
                 </a>
             
@@ -612,6 +638,116 @@
 <td>3</td>
 </tr></tbody></table>
 
+<h2 id="3-css-&#x76D2;&#x6A21;&#x578B;&#x662F;&#x4EC0;&#x4E48;&#xFF1F;">3. css &#x76D2;&#x6A21;&#x578B;&#x662F;&#x4EC0;&#x4E48;&#xFF1F;</h2><p>&#x76D2;&#x6A21;&#x578B;&#x7684;&#x7EC4;&#x6210;&#xFF1A;&#x7531;&#x91CC;&#x5411;&#x5916;&#x662F;&#xFF1A;content&#x3001;padding&#x3001;border&#x3001;margin&#x3002;</p><p>&#x76D2;&#x6A21;&#x578B;&#x6709;&#x4E24;&#x79CD;&#x6807;&#x51C6;&#xFF1A;&#x4E00;&#x4E2A; w3c &#x6807;&#x51C6;&#x6A21;&#x578B;&#xFF0C;&#x4E00;&#x4E2A;&#x662F; IE &#x6A21;&#x578B;&#x3002;</p><p><img alt="&#x6807;&#x51C6;&#x6A21;&#x578B;" src="../images/w3c.png">
+<img alt="ie&#x6A21;&#x578B;" src="../images/ie.png"></p><p>&#x4ECE;&#x4E0A;&#x9762;&#x4E24;&#x56FE;&#x4E0D;&#x96BE;&#x770B;&#x51FA;&#x5728;&#x6807;&#x51C6;&#x6A21;&#x578B;&#x4E2D;&#xFF0C;&#x76D2;&#x6A21;&#x578B;&#x7684;&#x5BBD;&#x9AD8;&#x53EA;&#x662F;&#x5185;&#x5BB9;&#xFF08;content&#xFF09;&#x7684;&#x5BBD;&#x9AD8;&#xFF0C;</p><p>&#x800C;&#x5728; IE &#x6A21;&#x578B;&#x4E2D;&#x76D2;&#x6A21;&#x578B;&#x7684;&#x5BBD;&#x9AD8;&#x662F;&#x5185;&#x5BB9;(content)+&#x586B;&#x5145;(padding)+&#x8FB9;&#x6846;(border)&#x7684;&#x603B;&#x5BBD;&#x9AD8;&#x3002;</p><h2 id="4-&#x5B9E;&#x73B0;-div-&#x7684;&#x52A8;&#x753B;&#x79FB;&#x52A8;">4. &#x5B9E;&#x73B0; div &#x7684;&#x52A8;&#x753B;&#x79FB;&#x52A8;</h2><p>&#x4F7F;&#x7528; css3 &#x7684;&#x52A8;&#x753B; animation &#x548C;@keyframes &#x6765;&#x5B9E;&#x73B0; div &#x7684;&#x79FB;&#x52A8;&#x3002;</p><pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+    <span class="hljs-selector-tag">div</span> {
+      <span class="hljs-attribute">width</span>: <span class="hljs-number">100px</span>;
+      <span class="hljs-attribute">height</span>: <span class="hljs-number">100px</span>;
+      <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid red;
+      <span class="hljs-attribute">position</span>: relative;
+      <span class="hljs-attribute">animation</span>: div <span class="hljs-number">5s</span>  infinite alternate;
+    }
+
+    @<span class="hljs-keyword">keyframes</span> div {
+      <span class="hljs-selector-tag">form</span> {<span class="hljs-attribute">left</span>: <span class="hljs-number">0</span>; <span class="hljs-attribute">background-color</span>:<span class="hljs-string">&apos;#fff&apos;</span>}
+      <span class="hljs-selector-tag">to</span> {<span class="hljs-attribute">left</span>: <span class="hljs-number">200px</span>; <span class="hljs-attribute">background-color</span>: red}
+    }
+  </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span></span></code></pre>
+<h2 id="5-css-&#x6A21;&#x5757;&#x5316;&#x662F;&#x4EC0;&#x4E48;&#xFF1F;">5. css &#x6A21;&#x5757;&#x5316;&#x662F;&#x4EC0;&#x4E48;&#xFF1F;</h2><p>css &#x6A21;&#x5757;&#x5316;&#x5C31;&#x662F;&#x6240;&#x6709;&#x7684;&#x7C7B;&#x540D;&#x90FD;&#x53EA;&#x6709;&#x5C40;&#x90E8;&#x4F5C;&#x7528;&#x57DF;&#x7684; css &#x6587;&#x4EF6;&#x3002;</p><blockquote><p>&#x597D;&#x5904;
+css &#x6A21;&#x5757;&#x5316;&#x5C06;&#x4F5C;&#x7528;&#x57DF;&#x9650;&#x5236;&#x4E8E;&#x7EC4;&#x4EF6;&#x4E2D;&#xFF0C;&#x4ECE;&#x800C;&#x907F;&#x514D;&#x4E86;&#x5168;&#x5C40;&#x4F5C;&#x7528;&#x57DF;&#x7684;&#x95EE;&#x9898;&#xFF0C;&#x7F16;&#x8BD1;&#x8FC7;&#x7A0B;&#x8FD8;&#x80FD;&#x5E2E;&#x4F60;&#x5B8C;&#x6210;&#x547D;&#x540D;&#x3002;</p><p>css &#x6A21;&#x5757;&#x5316;&#x7684;&#x89E3;&#x51B3;&#x65B9;&#x6848;
+&#x76EE;&#x524D;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#x6709;&#x4E24;&#x79CD;:
+&#x7B2C;&#x4E00;&#xFF0C;&#x5F7B;&#x5E95;&#x629B;&#x5F03; css,&#x4F7F;&#x7528; js &#x6216; json &#x6765;&#x5199;&#x6837;&#x5F0F;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;<a href="https://github.com/FormidableLabs/radium" target="_blank">Radium</a>&#xFF0C;<a href="https://github.com/smyte/jsxstyle" target="_blank">jsxstyle</a>&#xFF0C;<a href="https://github.com/js-next/react-style" target="_blank">react-style</a> &#x5C5E;&#x4E8E;&#x8FD9;&#x4E00;&#x7C7B;&#x3002;
+&#x7B2C;&#x4E8C;, &#x4F9D;&#x65E7;&#x4F7F;&#x7528;&#x65E7;&#x7684; css,&#x4F7F;&#x7528; js &#x6765;&#x7BA1;&#x7406;&#x6837;&#x5F0F;&#x4F9D;&#x8D56;&#xFF0C;&#x4EE3;&#x8868;&#x662F;<a href="https://github.com/css-modules/css-modules" target="_blank">css-modules</a></p></blockquote><h2 id="6-&#x5982;&#x4F55;&#x5B9E;&#x73B0;&#x4E00;&#x4E2A;&#x4E09;&#x5217;&#x5E03;&#x5C40;&#xFF0C;&#x4E2D;&#x95F4;&#x56FA;&#x5B9A;&#xFF0C;&#x4E24;&#x8FB9;&#x81EA;&#x9002;&#x5E94;&#xFF1F;">6. &#x5982;&#x4F55;&#x5B9E;&#x73B0;&#x4E00;&#x4E2A;&#x4E09;&#x5217;&#x5E03;&#x5C40;&#xFF0C;&#x4E2D;&#x95F4;&#x56FA;&#x5B9A;&#xFF0C;&#x4E24;&#x8FB9;&#x81EA;&#x9002;&#x5E94;&#xFF1F;</h2><pre><code class="lang-js">&lt;header&gt;
+  &lt;style&gt;
+    .contaniner {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .item {
+      border: 1px solid red;
+      height: 100%;
+    }
+
+    .center {
+      width: 100px;
+    }
+
+    .left,
+    .right {
+      width: calc(50% - 50px);
+    }
+  &lt;/style&gt;
+&lt;/header&gt;
+&lt;div class=&quot;contaniner&quot;&gt;
+  &lt;div class=&quot;item left&quot;&gt;
+    left
+  &lt;/div&gt;
+  &lt;div class=&quot;item center&quot;&gt;
+    &#x4E2D;&#x95F4;
+  &lt;/div&gt;
+  &lt;div class=&quot;item right&quot;&gt;
+    &#x53F3;&#x8FB9;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<blockquote><p>&#x76F8;&#x5BF9;&#x5E94;&#x7684;&#x95EE;&#x9898;&#x6765;&#x4E86;&#xFF0C;&#x5982;&#x4F55;&#x5B9E;&#x73B0;&#x4E00;&#x4E2A;&#x4E09;&#x680F;&#x5E03;&#x5C40;&#xFF0C;&#x4E2D;&#x95F4;&#x81EA;&#x9002;&#x5E94;&#xFF0C;&#x4E24;&#x8FB9;&#x56FA;&#x5B9A;&#xFF1F;</p><p>&#x53EA;&#x9700;&#x8981;&#x628A;&#x4E2D;&#x95F4;&#x548C;&#x4E24;&#x8FB9;&#x7684;&#x5BBD;&#x5EA6;&#x8C03;&#x6574;&#x4E00;&#x4E0B;&#x5373;&#x53EF;&#x3002;</p><pre><code class="lang-js">   .center {
+     width: calc(<span class="hljs-number">100</span>% - <span class="hljs-number">200</span>px);
+
+}
+
+   .left,
+   .right {
+     width: <span class="hljs-number">100</span>px;
+   }</code></pre>
+</blockquote><h2 id="7-&#x901A;&#x8FC7;-html-img-&#x6807;&#x7B7E;&#x8BBE;&#x7F6E;&#x56FE;&#x7247;&#x548C;&#x901A;&#x8FC7;-div-&#x80CC;&#x666F;&#x56FE;&#x8BBE;&#x7F6E;&#x56FE;&#x7247;&#xFF0C;&#x4E24;&#x79CD;&#x8BBE;&#x7F6E;&#x56FE;&#x7247;&#x7684;&#x65B9;&#x5F0F;&#x6709;&#x4EC0;&#x4E48;&#x4F18;&#x52A3;&#xFF1F;">7. &#x901A;&#x8FC7; html img &#x6807;&#x7B7E;&#x8BBE;&#x7F6E;&#x56FE;&#x7247;&#x548C;&#x901A;&#x8FC7; div &#x80CC;&#x666F;&#x56FE;&#x8BBE;&#x7F6E;&#x56FE;&#x7247;&#xFF0C;&#x4E24;&#x79CD;&#x8BBE;&#x7F6E;&#x56FE;&#x7247;&#x7684;&#x65B9;&#x5F0F;&#x6709;&#x4EC0;&#x4E48;&#x4F18;&#x52A3;&#xFF1F;</h2><ul><li><p>&#x5360;&#x4F4D;&#x7B26;
+<code>&lt;img&gt;</code> &#x6807;&#x7B7E;&#x5B9A;&#x4E49; HTML &#x9875;&#x9762;&#x4E2D;&#x7684;&#x56FE;&#x50CF;&#x3002;&#x4ECE;&#x6280;&#x672F;&#x4E0A;&#x8BB2;&#xFF0C;&#x56FE;&#x7247;&#x5E76;&#x4E0D;&#x4F1A;&#x63D2;&#x5165; HTML &#x9875;&#x9762;&#x4E2D;&#xFF0C;&#x800C;&#x662F;&#x94FE;&#x63A5;&#x5230; HTML &#x9875;&#x9762;&#x4E0A;&#x3002;img &#x6807;&#x7B7E;&#x7684;&#x4F5C;&#x7528;&#x662F;&#x4E3A;&#x88AB;&#x5F15;&#x7528;&#x7684;&#x56FE;&#x50CF;&#x521B;&#x5EFA;&#x5360;&#x4F4D;&#x7B26;&#x3002;</p><p>background-image &#x4F5C;&#x4E3A;&#x80CC;&#x666F;&#xFF0C;&#x5728;&#x56FE;&#x7247;&#x6CA1;&#x6709;&#x52A0;&#x8F7D;&#x7684;&#x65F6;&#x5019;&#x6216;&#x8005;&#x52A0;&#x8F7D;&#x5931;&#x8D25;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4E0D;&#x4F1A;&#x6709;&#x56FE;&#x7247;&#x7684;&#x5360;&#x4F4D;&#x6807;&#x8BB0;&#xFF0C;&#x4E0D;&#x4F1A;&#x51FA;&#x73B0;&#x7EA2;&#x53C9;&#x3002;</p></li>
+<li><p>&#x52A0;&#x8F7D;&#x65F6;&#x95F4;
+<code>img</code>&#x662F;&#x5199;&#x5728; HTML &#x91CC;&#x7684;&#x662F;&#x4EE5; HTML &#x63D2;&#x5165; img &#x6807;&#x7B7E;&#x7684;&#x5F62;&#x5F0F;&#x5B58;&#x5728;&#xFF0C;CSS &#x56FE;&#x7247;&#x80CC;&#x666F;&#x662F;&#x7B49;&#x7ED3;&#x6784;&#x52A0;&#x8F7D;&#x5B8C;&#x6210;&#x540E;&#x518D;&#x53BB;&#x52A0;&#x8F7D;&#x7684;&#x3002;</p></li>
+<li><p>&#x662F;&#x5426;&#x4E3A;&#x5185;&#x5BB9;
+&#x975E;&#x5185;&#x5BB9;&#x7684;&#x56FE;&#x7247;&#x5199;&#x5728; css &#x91CC;&#xFF0C;&#x5185;&#x5BB9;&#x7684;&#x56FE;&#x7247;&#x5C31;&#x5199;&#x5728; HTML &#x91CC;&#x3002;</p></li></ul>
+<h2 id="8-&#x5B9E;&#x73B0;&#x4E00;&#x4E0B;&#x4E00;&#x4E2A;-div-&#x7684;&#x5C45;&#x4E2D;&#x3002;&#x5982;&#x679C;&#x4E0D;&#x9002;&#x7528;-flex-&#x5E03;&#x5C40;&#x600E;&#x4E48;&#x505A;&#xFF1F;">8. &#x5B9E;&#x73B0;&#x4E00;&#x4E0B;&#x4E00;&#x4E2A; div &#x7684;&#x5C45;&#x4E2D;&#x3002;&#x5982;&#x679C;&#x4E0D;&#x9002;&#x7528; flex &#x5E03;&#x5C40;&#x600E;&#x4E48;&#x505A;&#xFF1F;</h2><blockquote><p>&#x4EE5;&#x524D;&#x6574;&#x7406;&#x7684;&#x6587;&#x4EF6;&#x4E2D;&#x6709;</p></blockquote><h2 id="8-&#x5B9E;&#x73B0;&#x4E00;&#x4E0B;&#x4E00;&#x4E2A;-div-&#x7684;&#x5C45;&#x4E2D;&#x3002;&#x5982;&#x679C;&#x4E0D;&#x9002;&#x7528;-flex-&#x5E03;&#x5C40;&#x600E;&#x4E48;&#x505A;&#xFF1F;">8. &#x5B9E;&#x73B0;&#x4E00;&#x4E0B;&#x4E00;&#x4E2A; div &#x7684;&#x5C45;&#x4E2D;&#x3002;&#x5982;&#x679C;&#x4E0D;&#x9002;&#x7528; flex &#x5E03;&#x5C40;&#x600E;&#x4E48;&#x505A;&#xFF1F;</h2><pre><code class="lang-js">&lt;header&gt;
+  &lt;style&gt;
+    .contaniner {
+      margin: 0 auto; // &#x5DE6;&#x53F3;&#x5C45;&#x4E2D;
+      border: 1px solid red;
+      width: 100px;
+      height: 100px;
+      top: calc(50% - 50px);
+      position: relative;
+    }
+  &lt;/style&gt;
+&lt;/header&gt;
+&lt;div class=&quot;contaniner&quot; /&gt;</code></pre>
+<blockquote><p>&#x5FC5;&#x987B;&#x6709; width,<code>margin: 0 auto</code>&#x624D;&#x6709;&#x6548;&#x679C;&#xFF1B;
+<code>top: calc(50% - 50px); position: relative;</code>&#x662F;&#x53EF;&#x4EE5;&#x4E0A;&#x4E0B;&#x5C45;&#x4E2D;</p></blockquote><h2 id="9-&#x666E;&#x901A;&#x7684;&#x5B9E;&#x73B0;&#x4E00;&#x4E0B;&#x4E24;&#x4E2A;div&#x6A2A;&#x7740;&#x6392;&#x5217;&#xFF1F;">9. &#x666E;&#x901A;&#x7684;&#x5B9E;&#x73B0;&#x4E00;&#x4E0B;&#x4E24;&#x4E2A;<code>&lt;div&gt;</code>&#x6A2A;&#x7740;&#x6392;&#x5217;&#xFF1F;</h2><pre><code class="lang-js">&lt;header&gt;
+  &lt;style&gt;
+    .contaniner {
+      height: 100%;
+      width: 100%;
+    }
+
+    .item {
+      border: 1px solid red;
+      width: 100px;
+      height: 100px;
+      float: left;
+    }
+  &lt;/style&gt;
+&lt;/header&gt;
+
+&lt;div class=&quot;contaniner&quot;&gt;
+  &lt;div class=&quot;item&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;item&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;</code></pre>
 
                                 
                                 </section>
@@ -655,7 +791,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"CSS","level":"1.2.6","depth":2,"next":{"title":"Regular 纯题目","level":"1.2.7","depth":2,"path":"interView/regular/questions.md","ref":"interView/regular/questions.md","articles":[]},"previous":{"title":"CSS 纯题目","level":"1.2.5","depth":2,"path":"interView/css/questions.md","ref":"interView/css/questions.md","articles":[]},"dir":"ltr"},"config":{"plugins":["multipart"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"disqus":{"shortName":"资料库"},"multipart":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"He he<zhulinger520@163.com>","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"前端面试资料库","links":{"sharing":{"all":null,"facebook":null,"google":null,"twitter":null,"weibo":null}},"gitbook":"*","description":"前端面试资料库","extension":null},"file":{"path":"interView/css/questionsAndAnswers.md","mtime":"2018-05-23T13:11:27.978Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2018-05-23T13:12:10.107Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"CSS","level":"1.2.6","depth":2,"next":{"title":"Regular 纯题目","level":"1.2.7","depth":2,"path":"interView/regular/questions.md","ref":"interView/regular/questions.md","articles":[]},"previous":{"title":"CSS 纯题目","level":"1.2.5","depth":2,"path":"interView/css/questions.md","ref":"interView/css/questions.md","articles":[]},"dir":"ltr"},"config":{"plugins":["multipart"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"disqus":{"shortName":"资料库"},"multipart":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"He he<zhulinger520@163.com>","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"前端面试资料库","links":{"sharing":{"all":null,"facebook":null,"google":null,"twitter":null,"weibo":null}},"gitbook":"*","description":"前端面试资料库","extension":null},"file":{"path":"interView/css/questionsAndAnswers.md","mtime":"2018-06-28T08:54:06.572Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2018-06-28T08:54:16.992Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
